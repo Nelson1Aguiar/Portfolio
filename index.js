@@ -9,6 +9,8 @@ const biblioteca=document.getElementById("Biblioteca");
 const todo=document.getElementById("Todo");
 const op=document.getElementById("Op");
 const calculadora=document.getElementById("Calculadora");
+const pingpong=document.getElementById("PingPong");
+const telefoneWeb = document.getElementById("TelefoneWeb");
 
 
 GerLanche.addEventListener('click', function() {
@@ -34,6 +36,15 @@ op.addEventListener('click', function() {
 calculadora.addEventListener('click', function() {
     window.location.href = 'https://github.com/Nelson1Aguiar/Calculadora-ReactNative.git';
 });
+
+pingpong.addEventListener('click',function(){
+    window.location.href = 'https://github.com/Nelson1Aguiar/GamePingPong_javascript.git';
+})
+
+telefoneWeb.addEventListener('click',function(){
+    window.location.href = 'https://github.com/Nelson1Aguiar/TelefoneWeb.git';
+})
+
 
 
 wpp.addEventListener('click', function() {
