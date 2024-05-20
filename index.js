@@ -13,6 +13,15 @@ document.addEventListener('DOMContentLoaded', function() {
     const pingpong = document.getElementById("PingPong");
     const telefoneWeb = document.getElementById("TelefoneWeb");
 
+    const contatosRolar = document.getElementById("contatosRolar");
+
+    contatosRolar.addEventListener('click',function(){
+        window.scrollTo({
+            top: document.body.scrollHeight,
+            behavior: 'smooth'
+          });
+    })
+
     GerLanche.addEventListener('click', function() {
         window.location.href = 'https://github.com/Nelson1Aguiar/Lanchonete_C-EDA.git';
     });
